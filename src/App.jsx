@@ -1,6 +1,6 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Uploads from './pages/upload/upload';
+import Uploads from './pages/Uploads/Upload';
 import Compliance from './pages/compliance/compliance';
 import Dashboard from './pages/Dashboard/Dashboard';
 import Knowledge from './pages/Knowledge/Knowledge';
