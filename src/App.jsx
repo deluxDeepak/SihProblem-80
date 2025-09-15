@@ -1,7 +1,7 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Uploads from './pages/Uploads/Upload';
-import Compliance from './pages/compliance/compliance';
+import Compliance from './pages/Compliances/Compliances';
 import Dashboard from './pages/Dashboard/Dashboard';
 import Knowledge from './pages/Knowledge/Knowledge';
 import Notfound from './pages/Notfound/Notfound';
