@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+
+/*---------- CSS variables------- */
+:root {
+    /* format: H S L (no rgb separators) */
+    --primary: 221 83% 53%;
+    /* blue-ish */
+    --primary-foreground: 210 10% 98%;
+    /* text on primary (light/white-like) */
+    --secondary: 210 15% 95%;
+    --accent: 150 60% 45%;
+}
+
+/* Optional: dark theme variables using data-attribute */
+[data-theme="dark"] {
+    --primary: 213 90% 62%;
+    --primary-foreground: 210 12% 6%;
+    --secondary: 210 10% 14%;
+    --accent: 150 50% 40%;
+}
