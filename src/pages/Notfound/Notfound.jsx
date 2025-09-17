@@ -7,7 +7,7 @@ import {
   Settings,
   LogOut,
 } from "lucide-react";
-import Mainsection from "./Mainsection";
+import Mainsection from "./ChatSection";
 
 const Notfound = () => {
   const menuItems = [

@@ -1,0 +1,51 @@
+// Dummy notification data with various types
+export const notifications = [
+    {
+        id: 1,
+        type: "alert",
+        title: "System Alert: Power Outage",
+        message: "Emergency power outage reported at Aluva station. Backup generators activated.",
+        time: "Just now",
+        read: false,
+    },
+    {
+        id: 2,
+        type: "alert",
+        title: "Security Alert: Unauthorized Access",
+        message: "Unauthorized access attempt detected in IT systems. Security team notified.",
+        time: "10 min ago",
+        read: false,
+    },
+    {
+        id: 3,
+        type: "info",
+        title: "Document Update",
+        message: "HR Policy document has been updated. Please review the changes.",
+        time: "1 hour ago",
+        read: false,
+    },
+    {
+        id: 4,
+        type: "message",
+        title: "New Message from Operations",
+        message: "Station manager at Edapally has sent you a report on passenger flow.",
+        time: "3 hours ago",
+        read: true,
+    },
+    {
+        id: 5,
+        type: "calendar",
+        title: "Meeting Reminder",
+        message: "Quarterly review meeting tomorrow at 10:00 AM in Conference Room A.",
+        time: "Yesterday",
+        read: true,
+    },
+    {
+        id: 6,
+        type: "success",
+        title: "Report Generated Successfully",
+        message: "Monthly operations report for August has been generated and shared.",
+        time: "Yesterday",
+        read: true,
+    },
+];

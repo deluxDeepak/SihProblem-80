@@ -1,6 +1,6 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Uploads from './pages/Uploads/Upload';
+import Department from './pages/Department/Department';
 import Compliance from './pages/Compliances/Compliances';
 import Dashboard from './pages/Dashboard/Dashboard';
 import Knowledge from './pages/Knowledge/Knowledge';
@@ -20,7 +20,7 @@ const App = () => (
       <Route path='/' element={<LoginPage/>}></Route>
       <Route path='/dashboard' element={<Layout />}>
         <Route index element={<Dashboard />}/>
-        <Route path="uploads" element={<Uploads />} />
+        <Route path="departments" element={<Department />} />
         <Route path="compliance" element={<Compliance />} />
         <Route path="knowledge" element={<Knowledge />} />
       </Route>
@@ -30,7 +30,6 @@ const App = () => (
     </Routes>
 
   </BrowserRouter>
-
 
 )
 
