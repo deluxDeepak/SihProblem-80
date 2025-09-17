@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 import { DepartmentSidebar } from "../../components/DepartmentSidebar/DepartmentSidebar";
 import { BadgeVariant } from "../../components/uiComponents/badgesVariants";
-import Mainsection from "../NotFound/ChatSection";
+import ChatSection from "../NotFound/ChatSection";
 import { departments } from "../../data/departmentData"; // Import department data
 
 const Department = () => {
@@ -43,7 +43,7 @@ const Department = () => {
 
 
 
-  
+
 
   const selectedDepartment = departments.find(
     (dept) => dept.id === selectedDepartmentId
@@ -155,7 +155,7 @@ const Department = () => {
       {/* AI Chat Section */}
       {selectedDepartmentId === "AiChat" && (
         <div className="flex-1 h-screen overflow-hidden">
-          <Mainsection />
+          <ChatSection />
         </div>
       )}
     </div>
