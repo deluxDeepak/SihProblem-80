@@ -7,7 +7,7 @@ import {
   Settings,
   LogOut,
 } from "lucide-react";
-import Mainsection from "./ChatSection";
+import ChatSection from "./ChatSection";
 
 const Notfound = () => {
   const menuItems = [
@@ -77,7 +77,7 @@ const Notfound = () => {
 
       {/* Main Section (80%) */}
       <div className="w-full md:w-4/5">
-        <Mainsection />
+        <ChatSection />
       </div>
     </div>
 
