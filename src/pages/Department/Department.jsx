@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 import { DepartmentSidebar } from "../../components/DepartmentSidebar/DepartmentSidebar";
 import { BadgeVariant } from "../../components/uiComponents/badgesVariants";
-import ChatSection from "../NotFound/ChatSection";
+import ChatSection from "../Notfound/ChatSection";
 import { departments } from "../../data/departmentData"; // Import department data
 
 const Department = () => {
